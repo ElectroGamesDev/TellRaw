@@ -7,7 +7,7 @@
 - Send messages to players without saying who it is from.
 - Great for info messages such as "Coming Soon" or welcome messages.
 # Command
-- /bank {PlayerName} {Message}
+- /tellraw {PlayerName} {Message}
 # Permissions
 - tellraw.cmd
 # Credits
