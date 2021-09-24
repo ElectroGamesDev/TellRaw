@@ -1,0 +1,14 @@
+main : Electro\TellRaw\TellRaw
+name: TellRaw
+version: 1.0.0
+api: 3.0.0
+Author: Electro
+
+commands:
+  tellraw:
+    description: Send people messages
+    
+permissions:
+  tellraw.cmd:
+    description: Permission to execute the tellraw command
+    default: op
