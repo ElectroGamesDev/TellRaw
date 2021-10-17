@@ -3,7 +3,7 @@
  - Example:
  - (Staff) "/tellraw Steve Welcome Player!"
  - (Steve) "Welcome Player!"
- - You can also send everyone a message using "/tellraw all <message>"
+ - You can also send everyone a message using "/tellraw all {message}"
 # Features 
 - Send messages to players without saying who it is from.
 - Great for info messages such as "Coming Soon" or welcome messages.
