@@ -13,3 +13,4 @@ permissions:
  tellraw.cmd:
   description: Permission to execute the tellraw command
   default: op
+
