@@ -1,14 +1,15 @@
 main : Electro\TellRaw\TellRaw
 name: TellRaw
-version: 1.0.0
-api: 3.0.0
+version: 2.0.0
+api: 4.0.0
 Author: Electro
 
 commands:
-  tellraw:
-    description: Send people messages
+ tellraw:
+  description: Send people messages anonymously
+  permission: tellraw.cmd
     
 permissions:
-  tellraw.cmd:
-    description: Permission to execute the tellraw command
-    default: op
+ tellraw.cmd:
+  description: Permission to execute the tellraw command
+  default: op
