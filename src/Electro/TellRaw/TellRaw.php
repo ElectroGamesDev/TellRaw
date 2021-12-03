@@ -2,7 +2,7 @@
 
 namespace Electro\TellRaw;
 
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 use pocketmine\plugin\PluginBase;
 
@@ -37,12 +37,12 @@ class TellRaw extends PluginBase implements Listener{
                     return true;
                 }
 
-                if (!$this->getServer()->getPlayer($args[0]) instanceof Player) {
+                if (!$this->getServer()->getPlayerExact($args[0]) instanceof Player) {
                     $sender->sendMessage("§l§cERROR: §r§aYou have entered an invalid Player Username.");
                     return true;
                 }
 
-                $player = $this->getServer()->getPlayer($args[0]);
+                $player = $this->getServer()->getPlayerExact($args[0]);
                 $player->sendMessage(implode(" ", array_slice($args, 1, 1000)));
         }
 
